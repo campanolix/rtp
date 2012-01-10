@@ -1,0 +1,14 @@
+0.  Get a good working draft from compileCfg.rb.  DONE.
+1.  Go back to original rtp, re-install it, and make it basically go.
+2.  Translate .rhtml stuff to .haml files (and then go back and finish 1).
+3.  Modify rtp to have the following features:
+	i.		Historical Owner, defaulting to a configured username.  User's must be identified with email address scannable from Google
+Directory, though perhaps this can be done in admscripts as part of deployment.  Historical owner should be a deployable configuration.
+	ii.		Part of i will require a source checkin script acting like the opposite of deployments to save the existing deployed areas back
+	into archive.
+	iii.	Link referencing to document at established location on same machine as part of deployment.
+	iv.		Each Signoff involves a Browser/Os combination, AND a test platform, which may be int, beta/gigantic, beta2, or production.  Others may be added to the deployable configurations.  Any given signed off test set can be further signed off on for untested combinations of Os/App and Test platform, which of course involves hundreds of effecive combinations.
+	v.		Re-format full page reports, with one for each signoff, and a good sized comment area available.
+	vi.		Add password authentication for each person.
+4.	Integrate all new items to work in simple scripts like deploy.bash and saveToArchive.bash
+5.  Review with Cristina

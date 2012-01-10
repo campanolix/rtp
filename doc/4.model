@@ -1,0 +1,82 @@
+Software:
+1.	Software Name
+2.	SoftwareDocNode
+3.  Software Id
+4.  Description
+5.  Admin User Id
+6.	Software Id
+
+User:
+1.	Full Name
+2.  LDAP Name
+3.  Email Address
+4.  User Id
+
+Test Area:
+0.	Software
+1.	Active
+2.	Label
+3.	Owner
+3.	DifferentTesterLastTime
+4.	RecentConcerns
+5.	TestPlanList
+6.	AreaId
+7.	Platform Sensitive
+8.	Environment Sensitive
+
+Test Signoff:
+
+0.	Software Version
+1.	Test Area Id
+2.	Tester
+3.	SignoffTime
+4.	Platform/AppOp
+5.	Environment
+6.  Recent Concerns
+7.	Other Comments
+8.	modification time
+
+Software Version:
+1.  Software Id
+2.  Software Version
+3.  Description
+4.  Activities
+5.  Version Admin Id
+6.	Admin History Comment
+
+Platforms:
+1.	OS Version/HW Version
+2.  App Version
+3.  Plat Id
+4.	Active Bool
+
+Platforms Recommendations:
+1.  Area Id
+2.  Plat Id
+3.	Plat Priority
+
+Env:
+1.	Env Label
+2.	Env Id
+3.	Active Bool
+
+Env Recommendations:
+1.	Area Id
+2.	Env Id
+3.	Env Priority
+
+Displays:
+
+Signoff Listing:
+
+Heading:  Software, Version
+Records:	Test Area Label (linked to doc), Signed off Tester Counts/link, Button to Add to Signoffs, List of editable Signoffs
+
+Test Area Listing:
+
+Heading:  Software, Version, Link to Version records
+Records:	Test Area Label(ro, with link to doc), Active op, Owner / Owner ops, Platform Recommendations, Env Recommendations
+
+The rest can probably just be close to boilerplate scaffold stuff.
+
+xc
